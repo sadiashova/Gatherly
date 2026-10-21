@@ -1,0 +1,15 @@
+.message {
+  display: flex;
+  min-height: 430px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  background: #fbfcf8;
+  text-align: center;
+}
+
+.message h1 { color: #1e3d2d; font-size: 30px; font-weight: 500; letter-spacing: -1px; }
+.message p { margin-top: 12px; color: #778179; font-size: 12px; line-height: 1.7; }
+.message a { display: inline-flex; min-height: 44px; align-items: center; gap: 14px; margin-top: 22px; padding: 0 16px; border-radius: 5px; background: #1e6843; color: #fff; font-size: 10px; font-weight: 650; }
+

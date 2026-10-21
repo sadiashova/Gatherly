@@ -1,0 +1,145 @@
+.footer {
+  padding: 57px 0 22px;
+  background: #183a2a;
+  color: #f8f7ef;
+}
+
+.inner {
+  width: min(1200px, calc(100% - 64px));
+  margin: 0 auto;
+}
+
+.top,
+.bottom,
+.footerLinks,
+.brand {
+  display: flex;
+}
+
+.top {
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 45px;
+  padding-bottom: 49px;
+}
+
+.identity {
+  max-width: 300px;
+}
+
+.brand {
+  align-items: center;
+  gap: 10px;
+  color: #fffef8;
+  font-size: 23px;
+  font-weight: 750;
+  letter-spacing: -1.2px;
+}
+
+.brandMark {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border-radius: 11px;
+  background: #dcebd9;
+  color: #267247;
+  font-size: 21px;
+  line-height: 1;
+}
+
+.brandDot {
+  color: #e7976e;
+}
+
+.identity p {
+  margin-top: 16px;
+  color: #c1d0c4;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.footerLinks {
+  gap: clamp(35px, 6vw, 100px);
+}
+
+.footerLinks > div {
+  display: flex;
+  min-width: 118px;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.footerLinks a {
+  color: #d0dbd2;
+  font-size: 12px;
+  transition: color 150ms ease;
+}
+
+.footerLinks a:hover {
+  color: #fff;
+}
+
+.label {
+  margin-bottom: 4px;
+  color: #98b29f;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.bottom {
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(228, 239, 229, 0.15);
+  color: #9eb5a4;
+  font-size: 11px;
+}
+
+.creatorLink {
+  color: #fffef8;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 150ms ease;
+}
+
+.creatorLink:hover {
+  color: #e7976e;
+}
+
+@media (max-width: 768px) {
+  .footerLinks {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding-top: 42px;
+  }
+
+  .inner {
+    width: calc(100% - 40px);
+  }
+
+  .top {
+    flex-direction: column;
+    gap: 35px;
+    padding-bottom: 36px;
+  }
+
+  .footerLinks {
+    width: 100%;
+    gap: 28px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 8px;
+    line-height: 1.6;
+  }
+}
