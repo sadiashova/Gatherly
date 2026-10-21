@@ -38,7 +38,7 @@ NEXT_PUBLIC_FIREBASE_APP_ID=
 
 ## Demo data
 
-The catalog starts with eight sample gatherings in `src/lib/items.js`. New gatherings and removals are stored in the browser's local storage, so demo changes are local to the current browser and are not synced across users or devices. Replace this storage layer with a persistent data source when the app is ready for production,
+The catalog starts with eight sample gatherings in `src/lib/items.js`. New gatherings and removals are stored in the browser's local storage, so demo changes are local to the current browser and are not synced across users or devices. Replace this storage layer with a persistent data source when the app is ready for production.
 
 ## Checks
 
