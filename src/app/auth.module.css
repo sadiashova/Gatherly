@@ -3,49 +3,49 @@
   min-height: calc(100vh - 160px);
   align-items: center;
   justify-content: center;
-  padding: 48px 20px 64px;
+  padding: 52px 20px 72px;
   background: #f6f7f2;
 }
 
 .card {
   display: flex;
-  width: min(440px, 100%);
+  width: min(460px, 100%);
   flex-direction: column;
   align-items: center;
-  padding: 36px 32px;
-  border: 1px solid #e7ebe4;
-  border-radius: 8px;
+  padding: 40px 36px;
+  border: 1px solid #e5eae2;
+  border-radius: 12px;
   background: #fffefb;
-  box-shadow: 0 4px 24px rgba(32, 57, 45, 0.04);
+  box-shadow: 0 6px 28px rgba(32, 57, 45, 0.05);
   text-align: center;
 }
 
 .mark {
   display: grid;
-  width: 42px;
-  height: 42px;
+  width: 46px;
+  height: 46px;
   place-items: center;
-  border-radius: 12px;
+  border-radius: 14px;
   background: #e4f1df;
   color: #267247;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   user-select: none;
 }
 
 .eyebrow {
-  margin-top: 16px;
-  color: #7c897e;
-  font-size: 10px;
+  margin-top: 18px;
+  color: #637666;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .card h1 {
-  margin-top: 10px;
+  margin-top: 12px;
   color: #1d3b2b;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 500;
   letter-spacing: -1.2px;
   line-height: 1.2;
@@ -59,48 +59,48 @@
 }
 
 .subtitle {
-  margin-top: 10px;
-  color: #78847a;
-  font-size: 12px;
+  margin-top: 12px;
+  color: #637266;
+  font-size: 15.5px;
   line-height: 1.6;
 }
 
 .form {
   width: 100%;
-  margin-top: 24px;
+  margin-top: 26px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
   text-align: left;
 }
 
 .field {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 7px;
 }
 
 .field label {
-  color: #3c5944;
-  font-size: 11px;
-  font-weight: 600;
+  color: #274730;
+  font-size: 14px;
+  font-weight: 650;
 }
 
 .field input {
   width: 100%;
-  min-height: 42px;
-  padding: 10px 13px;
-  border: 1px solid #dfe6de;
-  border-radius: 6px;
+  min-height: 46px;
+  padding: 12px 14px;
+  border: 1px solid #dce2da;
+  border-radius: 8px;
   background: #fff;
   color: #20392d;
-  font-size: 13px;
+  font-size: 15.5px;
   outline: none;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .field input::placeholder {
-  color: #9aa59c;
+  color: #929e94;
 }
 
 .field input:focus {
@@ -110,18 +110,18 @@
 
 .submit {
   display: inline-flex;
-  min-height: 44px;
+  min-height: 48px;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 4px;
-  padding: 0 20px;
+  gap: 10px;
+  margin-top: 6px;
+  padding: 0 22px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   background: #1e6843;
   color: #fff;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 650;
   cursor: pointer;
   transition: background 0.15s ease;
 }
@@ -139,11 +139,11 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 6px 0;
-  color: #8c978e;
-  font-size: 11px;
+  margin: 8px 0;
+  color: #79867b;
+  font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
 }
 
 .divider::before,
@@ -151,21 +151,21 @@
   content: "";
   flex: 1;
   height: 1px;
-  background: #e5eae3;
+  background: #e2e8df;
 }
 
 .googleButton {
   display: inline-flex;
-  min-height: 42px;
+  min-height: 46px;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
   width: 100%;
-  border: 1px solid #dce2da;
-  border-radius: 6px;
+  border: 1px solid #d6ded3;
+  border-radius: 8px;
   background: #fff;
-  color: #2d4535;
-  font-size: 12px;
+  color: #233e2c;
+  font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.15s ease, border-color 0.15s ease;
@@ -182,18 +182,18 @@
 }
 
 .googleIcon {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   flex-shrink: 0;
 }
 
 .error {
-  padding: 10px 14px;
+  padding: 12px 16px;
   border: 1px solid #f2cec4;
-  border-radius: 6px;
+  border-radius: 8px;
   background: #fff5f2;
-  color: #a13b24;
-  font-size: 11px;
+  color: #9c331c;
+  font-size: 14px;
   line-height: 1.5;
   text-align: left;
 }
@@ -201,14 +201,14 @@
 .links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 24px;
+  gap: 12px;
+  margin-top: 26px;
   text-align: center;
 }
 
 .links a {
-  color: #39734c;
-  font-size: 11px;
+  color: #27633c;
+  font-size: 14.5px;
   font-weight: 600;
   transition: color 0.15s ease;
 }
@@ -220,7 +220,6 @@
 
 @media (max-width: 480px) {
   .card {
-    padding: 28px 20px;
+    padding: 30px 22px;
   }
 }
-
